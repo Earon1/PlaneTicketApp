@@ -15,19 +15,22 @@ namespace PlaneTicketApp
             Console.WriteLine("Welcome to Check In Aplication.\n\n");
 
             var instance = new flightNumClass();
-            instance.inputFlightNum();      // calls input number class
+            instance.inputFlightNum();      // calls input number class 
 
             double flightNum = flightNumClass.flightNum;   
             string flightNumStrg = flightNum.ToString();    // convert flight num to string
             flightNumStrg = flightNumStrg + ".txt";         // add .txt to flight num
 
+            
             fileControlClass.checkFile(flightNumStrg);      // calls file class
+
+            MainMenuClass.MainMenu();
 
             Console.ReadKey();
 
             Passenger passenger = new Passenger();
 
-            
+           
 
 
         }

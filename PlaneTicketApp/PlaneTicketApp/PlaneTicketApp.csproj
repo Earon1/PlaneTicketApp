@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="fileControlClass.cs" />
     <Compile Include="flightNumClass.cs" />
+    <Compile Include="MainMenuClass.cs" />
+    <Compile Include="Passenger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
